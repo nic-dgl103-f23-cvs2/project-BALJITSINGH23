@@ -1,0 +1,70 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: auto;
+}
+
+/*   header    */
+
+header {
+    background-color: rgb(58, 84, 58);
+}
+
+.show-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+nav ul li {
+    padding: 8px 0;
+}
+
+/*      SERVICES SECTUION     */
+
+.services {
+    background-color: rgb(58, 84, 58);
+    text-align: center;
+}
+
+.services p {
+    padding: 10px 250px;
+    color: white;
+}
+
+.services h3 {
+    font-size: 2rem;
+    padding: 0 70px;
+}
+
+/*        portfolio section      */
+
+.photos {
+    text-align: center;
+}
+
+.services h4 {
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    nav .toggle {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+}

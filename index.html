@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
       <img src="images/logo.png" alt="logo" width="100px" />
       <nav>
-        <ul>
+        <a class="toggle" onclick="showNav()"
+          ><i class="fa fa-bars" aria-hidden="true"></i
+        ></a>
+        <ul id="nav-items">
           <li><a href="#">Home</a></li>
           <li><a href="#">Design & build</a></li>
           <li><a href="#">Portfolio</a></li>
@@ -18,6 +25,12 @@
         </ul>
       </nav>
     </header>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
     <main>
       <section class="hero">
         <h1>
@@ -42,19 +55,19 @@
           Partner
         </h3>
         <div>
-          <h3>Custom Home Construction</h3>
+          <h4>Custom Home Construction</h4>
           <p>
             Turn your vision into reality with our custom home construction
             services. From concept to completion, we bring your dream home to
             life.
           </p>
-          <h3>Renovations and Remodeling</h3>
+          <h4>Renovations and Remodeling</h4>
           <p>
             Transform your existing space into a modern masterpiece. Our
             renovation experts enhance the functionality and aesthetics of your
             home.
           </p>
-          <h3>Building Practices</h3>
+          <h4>Building Practices</h4>
           <p>
             Experience eco-friendly living with our commitment to sustainable
             building practices. We build homes that not only meet today's
@@ -63,6 +76,12 @@
         </div>
       </section>
       <section class="Portfolio">
+        <div class="photos">
+          <img src="images/PHOTO 1.png" alt="Portfolio photo" width="300" />
+          <img src="images/PHOTO 2.png" alt="Portfolio photo" width="290" />
+          <img src="images/PHOTO 3.png" alt="Portfolio photo" width="300" />
+          <img src="images/PHOTO 4.png" alt="Portfolio photo" width="290" />
+        </div>
         <h2>Explore Our Craftsmanship - Featured Projects</h2>
         <h3>
           From Modern Marvels to Timeless Classics, Our Portfolio Speaks Volume
