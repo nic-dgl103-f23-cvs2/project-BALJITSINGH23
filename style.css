@@ -30,31 +30,78 @@ nav ul li {
     padding: 8px 0;
 }
 
-/*      SERVICES SECTUION     */
-
-.services {
-    background-color: rgb(58, 84, 58);
+/*        HERO SECTION        */
+.hero {
     text-align: center;
 }
 
-.services p {
-    padding: 10px 250px;
-    color: white;
+.hero a {
+    width: 200px;
+    margin: 50px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: orangered;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*      SERVICES SECTION     */
+
+.services {
+    background-color: rgb(97, 139, 97);
+    text-align: center;
+}
+
+.services h2 {
+    color: rgb(20, 49, 16);
 }
 
 .services h3 {
     font-size: 2rem;
     padding: 0 70px;
+    color: rgb(130, 32, 32);
+}
+
+.services h4 {
+    font-size: 1.5rem;
+    color: rgb(142, 57, 57);
+}
+
+.services p {
+    padding: 8px 100px;
+    color: rgb(131, 87, 21);
 }
 
 /*        portfolio section      */
+.Portfolio {
+    background-color: rgb(97, 139, 97);
+    text-align: center;
+}
 
 .photos {
     text-align: center;
 }
 
-.services h4 {
-    font-size: 1.5rem;
+.Portfolio h2 {
+    color: rgb(74, 33, 33);
+}
+
+.Portfolio h3 {
+    color: rgb(102, 75, 43);
+    padding: 10px 50px;
+    font-size: 2rem;
+}
+
+.Portfolio a {
+    width: 200px;
+    margin: 50px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: orangered;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 1200px) {
