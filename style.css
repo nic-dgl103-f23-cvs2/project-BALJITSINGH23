@@ -262,4 +262,16 @@ input:required {
         display: flex;
         flex-direction: row;
     }
-}
+
+    /*    servicers     */
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
