@@ -113,6 +113,7 @@ nav a {
 .Portfolio {
     background-color: rgb(141, 180, 141);
     text-align: center;
+    overflow: auto;
 }
 
 .photos {
@@ -289,3 +290,14 @@ input:required {
         flex-direction: column;
 
     }
+
+    /*     portfolio    */
+    .content2 {
+        display: flex;
+    }
+
+    .photos {
+        display: flex;
+        justify-content: center;
+    }
+}
