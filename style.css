@@ -46,8 +46,6 @@ nav {
     background-image: url('images/BG.jpg');
     background-size: 100% 100%;
     overflow: auto;
-
-
 }
 
 .hero h1 {
@@ -141,6 +139,117 @@ nav {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
+}
+
+/*          call to action section        */
+.CTA {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(58, 84, 58);
+}
+
+.CTA p {
+    padding: 0px 50px;
+}
+
+.CTA a {
+    width: 200px;
+    margin: 50px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: orangered;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*    style for form   */
+
+input[type="reset"] {
+    color: #0e7a0d;
+    padding: 12px 20px;
+    border: 1px solid #0e7a0d;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background-color: #d1efe3;
+}
+
+input[type="submit"] {
+    background-color: #0e7a0d;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid #0e7a0d;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00ab66;
+}
+
+.wrapper-form {
+    text-align: initial;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.wrapper-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*                 FORM CONTROLS                        */
+
+input,
+select,
+textarea {
+    font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+
+
+.label-required {
+    font-size: 0.8rem;
+    color: red;
+}
+
+input:required {
+    border: 1px solid red;
 }
 
 @media only screen and (min-width: 1200px) {
