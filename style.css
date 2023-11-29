@@ -7,10 +7,14 @@ body {
     margin: auto;
 }
 
-/*   header    */
+/*                  header              */
 
 header {
     background-color: rgb(58, 84, 58);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .show-items {
@@ -30,9 +34,36 @@ nav ul li {
     padding: 8px 0;
 }
 
+nav {
+    text-align: right;
+    color: white;
+}
+
 /*        HERO SECTION        */
 .hero {
     text-align: center;
+    background-image: url('images/PORTFOLIO\ 1.jpg');
+    background-image: url('images/BG.jpg');
+    background-size: 100% 100%;
+    overflow: auto;
+
+
+}
+
+.hero h1 {
+    font-size: 3rem;
+    padding: 50px 50px 0px 50px;
+    color: rgb(128, 41, 3);
+}
+
+.hero h2 {
+    padding: 0px 40px;
+    color: rgb(20, 49, 16);
+}
+
+.hero p {
+    padding: 10px 20px;
+    color: rgb(113, 74, 16);
 }
 
 .hero a {
@@ -44,13 +75,15 @@ nav ul li {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-block;
 }
 
 /*      SERVICES SECTION     */
 
 .services {
-    background-color: rgb(97, 139, 97);
+    background-color: rgb(141, 180, 141);
     text-align: center;
+    overflow: auto;
 }
 
 .services h2 {
@@ -70,17 +103,22 @@ nav ul li {
 
 .services p {
     padding: 8px 100px;
-    color: rgb(131, 87, 21);
+    color: rgb(121, 80, 18);
 }
 
 /*        portfolio section      */
 .Portfolio {
-    background-color: rgb(97, 139, 97);
+    background-color: rgb(141, 180, 141);
     text-align: center;
 }
 
 .photos {
+
     text-align: center;
+}
+
+.photos img {
+    object-fit: cover;
 }
 
 .Portfolio h2 {
@@ -102,6 +140,7 @@ nav ul li {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-block;
 }
 
 @media only screen and (min-width: 1200px) {
