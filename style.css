@@ -300,4 +300,13 @@ input:required {
         display: flex;
         justify-content: center;
     }
+
+    /*        cta section    */
+    .CTA {
+        display: flex;
+    }
+
+    .content3 {
+        margin-top: 150px;
+    }
 }
