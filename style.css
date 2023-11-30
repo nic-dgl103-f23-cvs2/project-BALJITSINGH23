@@ -111,7 +111,7 @@ nav a {
 
 /*        portfolio section      */
 .Portfolio {
-    background-color: rgb(141, 180, 141);
+    background-color: rgb(102, 133, 102);
     text-align: center;
     overflow: auto;
 }
@@ -151,7 +151,7 @@ nav a {
 .CTA {
     text-align: center;
     padding: 30px;
-    background-color: rgb(58, 84, 58);
+    background-color: rgb(141, 180, 141);
 }
 
 .CTA p {
@@ -327,6 +327,65 @@ figcaption {
 
     .content3 {
         margin-top: 150px;
+    }
+
+    /*      footer     */
+    .footer {
+        background-color: rgb(58, 84, 58);
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 80px;
+    }
+
+    .footer1 {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer1 p {
+        color: black;
+        width: 50ch;
+    }
+
+    .footer-list {
+        display: flex;
+    }
+
+    .list-name {
+        padding-right: 20px;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        color: black;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        border-right: solid 1px #424b5a;
+        margin: 0 10px;
+    }
+
+
+    .items {
+        padding-right: 30px;
+        display: inline;
+        margin-block: 0;
+        padding-inline-start: 0;
+        line-height: 30px;
+        color: black;
+        list-style-type: none;
+    }
+
+
+    .term-con {
+        width: 1170px;
+        font-size: 1.4rem;
+        display: flex;
+        color: black;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top: 0.05px solid black;
     }
 
     /*-------- PORTFOLIO PAGE ---------*/
