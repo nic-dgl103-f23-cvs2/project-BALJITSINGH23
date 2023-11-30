@@ -270,6 +270,11 @@ figcaption {
 
 .reviews {
     object-fit: cover;
+
+}
+
+.reviews iframe {
+    padding: 30px;
 }
 
 @media only screen and (min-width: 1200px) {
