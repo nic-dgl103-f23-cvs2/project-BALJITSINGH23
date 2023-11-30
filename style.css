@@ -258,6 +258,20 @@ input:required {
     border: 1px solid red;
 }
 
+/*-------------- PORTFOLIO PAGE---------------*/
+
+.full-portfolio {
+    text-align: center;
+}
+
+figcaption {
+    padding: 0px 60px;
+}
+
+.reviews {
+    object-fit: cover;
+}
+
 @media only screen and (min-width: 1200px) {
 
 
@@ -309,4 +323,11 @@ input:required {
     .content3 {
         margin-top: 150px;
     }
+
+    /*-------- PORTFOLIO PAGE ---------*/
+    .image {
+        display: flex;
+    }
+
+
 }
