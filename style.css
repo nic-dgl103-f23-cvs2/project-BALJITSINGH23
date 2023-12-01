@@ -79,6 +79,13 @@ nav a {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
+}
+
+.hero a:hover {
+    background-color: rgba(73, 42, 146, 0.3);
+    color: #033c0f;
+
 }
 
 /*      SERVICES SECTION     */
@@ -258,10 +265,71 @@ input:required {
     border: 1px solid red;
 }
 
+/*     FOOTER      */
+.footer {
+    background-color: rgb(58, 84, 58);
+
+    padding: 30px 80px;
+}
+
+.footer1 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 p {
+    color: black;
+    width: 50ch;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.list-name {
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: black;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px #424b5a;
+    margin: 0 10px;
+}
+
+
+.items {
+    padding-right: 30px;
+    display: inline;
+    margin-block: 0;
+    padding-inline-start: 0;
+    line-height: 30px;
+    color: black;
+    list-style-type: none;
+}
+
+
+.term-con {
+    width: 1170px;
+    font-size: 1.4rem;
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 0.05px solid black;
+}
+
+
 /*-------------- PORTFOLIO PAGE---------------*/
 
 .full-portfolio {
     text-align: center;
+    background-color: #3a6755;
+
 }
 
 figcaption {
@@ -269,6 +337,7 @@ figcaption {
 }
 
 .reviews {
+    background-color: #5f9982;
     object-fit: cover;
 
 }
@@ -276,6 +345,47 @@ figcaption {
 .reviews iframe {
     padding: 30px;
 }
+
+/*---------- CONTACT US PAGE ----------*/
+.contact {
+    padding: 50px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #333;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #93c4ae;
+    border-right: 2px solid #333;
+}
+
+td {
+    background-color: #93c4ae;
+}
+
+tr {
+    cursor: pointer;
+}
+
+tr:hover {
+    background-color: #a96666;
+}
+
+.location {
+    align-items: center;
+}
+
 
 @media only screen and (min-width: 1200px) {
 
@@ -389,9 +499,50 @@ figcaption {
     }
 
     /*-------- PORTFOLIO PAGE ---------*/
+
+    .contentportfolio {
+        display: flex;
+    }
+
+    .contentportfolio h2 {
+        font-size: 3rem;
+    }
+
+    .contentportfolio h3 {
+        padding: 30px;
+    }
+
     .image {
         display: flex;
     }
 
+    /*   reviews section   */
 
+    .contentreviews {
+        display: flex;
+    }
+
+    .contentreviews h2 {
+        font-size: 3rem;
+        padding: 55px;
+    }
+
+    .contentreviews h3 {
+        padding: 50px;
+    }
+
+    /*-----------contact page-----------*/
+    /*    contact section    */
+    .tables {
+        display: flex;
+    }
+
+    table {
+        padding: 10px;
+    }
+
+    /*     loaction    */
+    .location {
+        padding: 50px;
+    }
 }
