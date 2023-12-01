@@ -356,13 +356,15 @@ table {
     border-collapse: collapse;
     margin-top: 20px;
     border: 2px solid #333;
+    transition: background-color 0.3s ease;
 }
 
 th,
 td {
     padding: 12px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #d97b7b;
+    cursor: pointer;
 }
 
 th {
@@ -374,12 +376,8 @@ td {
     background-color: #93c4ae;
 }
 
-tr {
-    cursor: pointer;
-}
-
-tr:hover {
-    background-color: #a96666;
+th:hover {
+    background-color: #dc1919;
 }
 
 .location {
