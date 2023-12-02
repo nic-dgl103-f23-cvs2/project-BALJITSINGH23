@@ -51,6 +51,7 @@ nav a {
     background-image: url('images/BG.jpg');
     background-size: 100% 100%;
     overflow: auto;
+
 }
 
 .hero h1 {
@@ -332,6 +333,14 @@ input:required {
 
 }
 
+.image img {
+    width: 100%;
+}
+
+.reviews iframe {
+    width: 100%;
+}
+
 figcaption {
     padding: 0px 60px;
 }
@@ -377,11 +386,11 @@ td {
 }
 
 th:hover {
-    background-color: #dc1919;
+    background-color: #8d7c7c;
 }
 
-.location {
-    align-items: center;
+.location iframe {
+    width: 100%;
 }
 
 
