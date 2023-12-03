@@ -7,14 +7,22 @@ body {
     margin: auto;
 }
 
+.width {
+    max-width: 1275px;
+    margin: auto;
+}
+
 /*                  header              */
 
 header {
     background-color: rgb(58, 84, 58);
+    padding: 20px;
+}
+
+.header-items {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 20px;
 }
 
 .show-items {
@@ -41,7 +49,8 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: orangered
+    color: orangered;
+    text-decoration: uppercase;
 }
 
 /*        HERO SECTION        */
@@ -312,13 +321,12 @@ input:required {
 
 
 .term-con {
-    width: 1170px;
+    background-color: rgb(95, 125, 95);
     font-size: 1.4rem;
-    display: flex;
     color: black;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
     border-top: 0.05px solid black;
+
 }
 
 
@@ -398,6 +406,11 @@ th:hover {
         display: none;
     }
 
+    .header-items {
+        display: flex;
+        flex-direction: row;
+    }
+
     nav ul {
         display: flex;
         flex-direction: row;
@@ -435,8 +448,9 @@ th:hover {
     }
 
     /*        cta section    */
-    .CTA {
+    .call-to-action {
         display: flex;
+        justify-content: row;
     }
 
     .content3 {
@@ -444,9 +458,10 @@ th:hover {
     }
 
     /*      footer     */
-    .footer {
+    .footer-items {
 
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
 
     }
@@ -465,18 +480,11 @@ th:hover {
         display: flex;
     }
 
-    .items {}
-
-
-    .term-con {
-        background-color: rgb(95, 125, 95);
-        width: 1170px;
-        font-size: 1.4rem;
+    .term {
         display: flex;
-        color: black;
         flex-direction: row;
         justify-content: space-between;
-        border-top: 0.05px solid black;
+
     }
 
     /*-------- PORTFOLIO PAGE ---------*/
