@@ -12,6 +12,28 @@ body {
     margin: auto;
 }
 
+/*  fonts,sizes and colors  */
+h1 {
+    color: rgb(68, 28, 2);
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    color: #492902;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+    color: #423a04;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #2a1f13;
+}
+
 /*                  header              */
 
 header {
@@ -51,6 +73,7 @@ nav a {
     text-decoration: none;
     color: orangered;
     text-decoration: uppercase;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*        HERO SECTION        */
@@ -64,19 +87,16 @@ nav a {
 }
 
 .hero h1 {
-    font-size: 3rem;
     padding: 50px 50px 0px 50px;
-    color: rgb(128, 41, 3);
 }
 
 .hero h2 {
     padding: 0px 40px;
-    color: rgb(20, 49, 16);
 }
 
 .hero p {
     padding: 10px 20px;
-    color: rgb(113, 74, 16);
+
 }
 
 .hero a {
@@ -90,6 +110,7 @@ nav a {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .hero a:hover {
@@ -106,29 +127,23 @@ nav a {
     overflow: auto;
 }
 
-.services h2 {
-    color: rgb(20, 49, 16);
-}
 
 .services h3 {
     font-size: 2rem;
     padding: 0 70px;
-    color: rgb(130, 32, 32);
 }
 
 .services h4 {
     font-size: 1.5rem;
-    color: rgb(142, 57, 57);
 }
 
 .services p {
     padding: 8px 100px;
-    color: rgb(121, 80, 18);
 }
 
 /*        portfolio section      */
 .Portfolio {
-    background-color: rgb(102, 133, 102);
+    background-color: rgb(169, 223, 169);
     text-align: center;
     overflow: auto;
 }
@@ -142,14 +157,9 @@ nav a {
     object-fit: cover;
 }
 
-.Portfolio h2 {
-    color: rgb(74, 33, 33);
-}
 
 .Portfolio h3 {
-    color: rgb(102, 75, 43);
     padding: 10px 50px;
-    font-size: 2rem;
 }
 
 .Portfolio a {
@@ -162,6 +172,7 @@ nav a {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*          call to action section        */
@@ -185,6 +196,7 @@ nav a {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*    style for form   */
@@ -290,7 +302,7 @@ input:required {
 .footer1 img {}
 
 .footer1 p {
-    color: black;
+    color: white;
 
     padding: 30px;
 }
@@ -298,8 +310,8 @@ input:required {
 .list-name {
     padding-right: 20px;
     text-transform: uppercase;
-    font-size: 1.6rem;
-    color: black;
+    font-size: 1.2rem;
+    color: white;
 }
 
 .list {
@@ -315,18 +327,20 @@ input:required {
     margin-block: 0;
     padding-inline-start: 0;
     line-height: 30px;
-    color: black;
+    color: white;
     list-style-type: none;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
 .term-con {
     background-color: rgb(95, 125, 95);
     font-size: 1.4rem;
-    color: black;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
     align-items: center;
     border-top: 0.05px solid black;
-
+    text-align: center;
 }
 
 
@@ -334,7 +348,7 @@ input:required {
 
 .full-portfolio {
     text-align: center;
-    background-color: #3a6755;
+    background-color: rgb(141, 180, 141);
     overflow: auto;
 
 }
@@ -346,11 +360,12 @@ input:required {
 
 figcaption {
     padding: 0px 60px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .reviews {
     overflow: auto;
-    background-color: #5f9982;
+    background-color: rgb(169, 223, 169);
     width: 100%;
     object-fit: cover;
 
@@ -361,16 +376,32 @@ figcaption {
 }
 
 /*---------- CONTACT US PAGE ----------*/
+/*    contact section   */
 .contact {
     padding: 50px;
+    background-color: rgb(141, 180, 141);
+    text-align: center;
 }
 
+.contact ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.contact li {
+    padding: 15px;
+}
+
+
 table {
+    margin-left: 50px;
     width: 50%;
     border-collapse: collapse;
     margin-top: 20px;
     border: 2px solid #333;
     transition: background-color 0.3s ease;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 th,
@@ -528,6 +559,15 @@ th:hover {
 
     table {
         padding: 10px;
+    }
+
+    .contact-content {
+        margin-left: 290px;
+        display: flex;
+    }
+
+    .contact ul {
+        margin-left: 440px;
     }
 
     /*     loaction    */

@@ -9,21 +9,31 @@
       src="https://kit.fontawesome.com/adc216694a.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <img src="images/logo.png" alt="logo" width="100" />
-      <nav>
-        <a class="toggle" onclick="showNav()"
-          ><i class="fa fa-bars" aria-hidden="true"></i
-        ></a>
-        <ul id="nav-items">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Design & build</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="contact.html">contact us</a></li>
-        </ul>
-      </nav>
+      <div class="width">
+        <div class="header-items">
+          <img src="images/logo.png" alt="logo" width="100" />
+          <nav>
+            <a class="toggle" onclick="showNav()"
+              ><i class="fa fa-bars" aria-hidden="true"></i
+            ></a>
+            <ul id="nav-items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Design & build</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="#">contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <script>
       function showNav() {
@@ -33,81 +43,93 @@
     </script>
     <main>
       <section class="contact">
-        <h1>Get in Touch with Your Dream Home</h1>
-        <h2>Our Office</h2>
-        <address>
-          <p>Build with perspective</p>
-          <p>2463 E Rosewall Crescent, BC V9N</p>
-          <p>Courtenay</p>
-          <p>Comox Valley</p>
-        </address>
-
-        <h3>Contact Information</h3>
-        <p>Email:office@buildwithperspective.com</p>
-        <p>Tel:778-647-2266</p>
-        <h3>Follow Us</h3>
-        <ul>
-          <li>
-            <a href="#" target="_blank"
+        <div class="width">
+          <h1>Get in Touch with Your Dream Home</h1>
+          <div class="contact-content">
+            <div>
+              <h3>Our Office</h3>
+              <address>
+                <p>Build with perspective</p>
+                <p>2463 E Rosewall Crescent, BC V9N</p>
+                <p>Courtenay</p>
+                <p>Comox Valley</p>
+              </address>
+            </div>
+            <div>
+              <h3>Contact Information</h3>
+              <p>Email:office@buildwithperspective.com</p>
+              <p>Tel:778-647-2266</p>
+            </div>
+          </div>
+          <h3>Follow Us</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/people/Perspective-Design-Build-Ltd/100063958185786/"
+                target="_blank"
+                ><i
+                  class="fa-brands fa-square-facebook fa-beat-fade fa-2xl"
+                  style="color: #0f63f5"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/perspectivedesignbuildltd/"
+                target="_blank"
+              >
+                <i
+                  class="fa-brands fa-instagram fa-beat-fade fa-2xl"
+                  style="color: #c02a5f"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"></a
               ><i
-                class="fa-brands fa-square-facebook fa-beat-fade fa-2xl"
-                style="color: #0f63f5"
-              ></i
-            ></a>
-          </li>
-          <li>
-            <a href="#" target="_blank"></a
-            ><i
-              class="fa-brands fa-instagram fa-beat-fade fa-2xl"
-              style="color: #c02a5f"
-            ></i>
-          </li>
-          <li>
-            <a href="#" target="_blank"></a
-            ><i
-              class="fa-brands fa-youtube fa-beat-fade fa-2xl"
-              style="color: #ea0b21"
-            ></i>
-          </li>
-          <!-- Add more social media links as needed -->
-        </ul>
-        <div class="tables">
-          <table>
-            <tr>
-              <th>Business Hours for summer</th>
-              <td>Timings</td>
-            </tr>
-            <tr>
-              <th>Monday - Friday</th>
-              <td>8:00 AM - 7:00 PM</td>
-            </tr>
-            <tr>
-              <th>Saturday</th>
-              <td>9:00 AM - 3:00 PM</td>
-            </tr>
-            <tr>
-              <th>Sunday</th>
-              <td>Closed</td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <th>Business Hours for winters</th>
-              <td>Timings</td>
-            </tr>
-            <tr>
-              <th>Monday - Friday</th>
-              <td>9:00 AM - 3:00 PM</td>
-            </tr>
-            <tr>
-              <th>Saturday</th>
-              <td>10:00 AM - 1:00 PM</td>
-            </tr>
-            <tr>
-              <th>Sunday</th>
-              <td>Closed</td>
-            </tr>
-          </table>
+                class="fa-brands fa-youtube fa-beat-fade fa-2xl"
+                style="color: #ea0b21"
+              ></i>
+            </li>
+          </ul>
+          <div class="tables">
+            <table>
+              <tr>
+                <th>Business Hours for summer</th>
+                <td>Timings</td>
+              </tr>
+              <tr>
+                <th>Monday - Friday</th>
+                <td>8:00 AM - 7:00 PM</td>
+              </tr>
+              <tr>
+                <th>Saturday</th>
+                <td>9:00 AM - 3:00 PM</td>
+              </tr>
+              <tr>
+                <th>Sunday</th>
+                <td>Closed</td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <th>Business Hours for winters</th>
+                <td>Timings</td>
+              </tr>
+              <tr>
+                <th>Monday - Friday</th>
+                <td>9:00 AM - 3:00 PM</td>
+              </tr>
+              <tr>
+                <th>Saturday</th>
+                <td>10:00 AM - 1:00 PM</td>
+              </tr>
+              <tr>
+                <th>Sunday</th>
+                <td>Closed</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </section>
       <section class="location">
@@ -124,49 +146,80 @@
     </main>
     <footer>
       <div class="footer">
-        <div class="footer1">
-          <img src="images/logo.png" alt="logo" width="50" />
-          <p>
-            Join us on this journey of exploration and transformation, as we
-            build a future that reflects the diverse perspectives of our global
-            community. Together, we build with perspective – one idea, one
-            project, and one innovation at a time.
-          </p>
-        </div>
-        <div class="footer-list">
-          <div class="list">
-            <h3 class="list-name">follow us</h3>
-            <ul class="items">
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
+        <div class="width">
+          <div class="footer-items">
+            <div class="footer1">
+              <img src="images/logo.png" alt="logo" width="50" />
+              <p>
+                Join us on this journey of exploration and transformation, as we
+                build a future that reflects the diverse perspectives of our
+                global community. Together, we build with perspective – one
+                idea, one project, and one innovation at a time.
+              </p>
+            </div>
+            <div class="footer-list">
+              <div class="list">
+                <h3 class="list-name">follow us</h3>
+                <ul class="items">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/people/Perspective-Design-Build-Ltd/100063958185786/"
+                      target="_blank"
+                      ><i
+                        class="fa-brands fa-square-facebook fa-xl"
+                        style="color: #0f63f5"
+                      ></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/perspectivedesignbuildltd/"
+                    >
+                      <i
+                        class="fa-brands fa-instagram fa-xl"
+                        style="color: #ce0354"
+                      ></i
+                    ></a>
+                  </li>
+                  <li>
+                    <i
+                      class="fa-brands fa-youtube fa-xl"
+                      style="color: #e10909"
+                    ></i>
+                  </li>
+                </ul>
+              </div>
 
-          <div class="list">
-            <h3 class="list-name">About us</h3>
-            <ul class="items">
-              <li>Our team</li>
-              <li>services</li>
-              <li>Portfolio</li>
-              <li>reviews</li>
-            </ul>
-          </div>
+              <div class="list">
+                <h3 class="list-name">About us</h3>
+                <ul class="items">
+                  <li>Our team</li>
+                  <li>services</li>
+                  <li>Portfolio</li>
+                  <li>reviews</li>
+                </ul>
+              </div>
 
-          <div class="list" style="border: none">
-            <h3 class="list-name">Contact</h3>
-            <ul class="items">
-              <li>Email:office@buildwithperspective.com</li>
-              <li>Tel:778-647-2266</li>
-              <li>2463 E Rosewall Crescent, BC V9N</li>
-              <li>Comox Valley</li>
-            </ul>
+              <div class="list" style="border: none">
+                <h3 class="list-name">Contact</h3>
+                <ul class="items">
+                  <li>Email:office@buildwithperspective.com</li>
+                  <li>Tel:778-647-2266</li>
+                  <li>2463 E Rosewall Crescent, BC V9N</li>
+                  <li>Comox Valley</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="term-con">
-        <p>Terms and conditions</p>
-        <p>© 2021 by Perspective Design Build</p>
+        <div class="width">
+          <div class="term">
+            <p>Terms and conditions</p>
+            <p>© 2021 by Perspective Design Build</p>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
