@@ -71,7 +71,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: orangered;
+    color: white;
     text-decoration: uppercase;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -79,24 +79,30 @@ nav a {
 /*        HERO SECTION        */
 .hero {
     text-align: center;
-    background-image: url('images/PORTFOLIO\ 1.jpg');
-    background-image: url('images/BG.jpg');
+    background-color: #9db4ab;
     background-size: 100% 100%;
+}
+
+.BG {
+    background-image: url('images/BG.jpg');
     overflow: auto;
 
 }
 
 .hero h1 {
+    color: #af3509;
     padding: 50px 50px 0px 50px;
 }
 
 .hero h2 {
+    margin-top: 50px;
     padding: 0px 40px;
 }
 
 .hero p {
-    padding: 10px 20px;
-
+    padding: 10px 100px;
+    margin-top: 150px;
+    color: #150303;
 }
 
 .hero a {
@@ -105,7 +111,7 @@ nav a {
     border-radius: 5px;
     padding: 10px 30px;
     background-color: orangered;
-    color: black;
+    color: rgb(251, 248, 248);
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
@@ -168,7 +174,7 @@ nav a {
     border-radius: 5px;
     padding: 10px 30px;
     background-color: orangered;
-    color: black;
+    color: white;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
@@ -192,7 +198,7 @@ nav a {
     border-radius: 5px;
     padding: 10px 30px;
     background-color: orangered;
-    color: black;
+    color: white;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
@@ -290,21 +296,17 @@ input:required {
 /*     FOOTER      */
 .footer {
     background-color: rgb(58, 84, 58);
-    padding: 30px 80px;
+    padding: 30px 50px;
     text-align: center;
 }
 
 .footer1 {
     margin-left: 20px;
-    display: flex;
 }
-
-.footer1 img {}
 
 .footer1 p {
     color: white;
-
-    padding: 30px;
+    padding: 10px;
 }
 
 .list-name {
@@ -345,7 +347,7 @@ input:required {
 
 
 /*-------------- PORTFOLIO PAGE---------------*/
-
+/*     portfolio section   */
 .full-portfolio {
     text-align: center;
     background-color: rgb(141, 180, 141);
@@ -357,7 +359,19 @@ input:required {
     width: 100%;
 }
 
+.icon {
+    padding: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
+.icon p {
+    padding: 0px 15px;
+    color: rgb(18, 5, 5);
+}
+
+/*     reviews section     */
 figcaption {
     padding: 0px 60px;
     font-family: 'Roboto', sans-serif;
@@ -366,9 +380,7 @@ figcaption {
 .reviews {
     overflow: auto;
     background-color: rgb(169, 223, 169);
-    width: 100%;
     object-fit: cover;
-
 }
 
 .reviews iframe {
@@ -451,9 +463,19 @@ th:hover {
 
     nav a {
         text-decoration: none;
-        color: orangered
+        color: white;
+        font-size: 2rem;
     }
 
+    /*  HERO  8    */
+    .hero {
+        background-image: cover;
+    }
+
+    .hero h1 {
+        padding: 30px 70px;
+        font-size: 3rem;
+    }
 
     /*           servicers              */
     .container {
@@ -555,6 +577,7 @@ th:hover {
     /*    contact section    */
     .tables {
         display: flex;
+        align-items: center;
     }
 
     table {
