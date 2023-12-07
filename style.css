@@ -72,7 +72,7 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
-    text-decoration: uppercase;
+    text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -472,7 +472,7 @@ th:hover {
 
     /*  HERO  8    */
     .hero {
-        background-image: cover;
+        background-size: cover;
     }
 
     .hero h1 {
@@ -510,7 +510,7 @@ th:hover {
     /*        cta section    */
     .call-to-action {
         display: flex;
-        justify-content: row;
+        flex-direction: row;
     }
 
     .content3 {
