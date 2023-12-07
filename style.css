@@ -101,8 +101,8 @@ nav a {
 
 .hero p {
     padding: 10px 100px;
-    margin-top: 150px;
-    color: #150303;
+    margin-top: 80px;
+    color: #042809;
 }
 
 .hero a {
@@ -345,6 +345,10 @@ input:required {
     text-align: center;
 }
 
+.Disclaimer p {
+    color: rgb(79, 3, 3);
+}
+
 
 /*-------------- PORTFOLIO PAGE---------------*/
 /*     portfolio section   */
@@ -402,9 +406,8 @@ figcaption {
 }
 
 .contact li {
-    padding: 15px;
+    padding: 25px;
 }
-
 
 table {
     margin-left: 50px;
@@ -475,6 +478,10 @@ th:hover {
     .hero h1 {
         padding: 30px 70px;
         font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 2rem;
     }
 
     /*           servicers              */
